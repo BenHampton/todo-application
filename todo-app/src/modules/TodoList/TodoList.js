@@ -6,7 +6,7 @@ import './TodoList.css'
 
 const TodoList = () => {
 
-    const selectTodoList = useSelector(state => state.toDoReducer)
+    const selectTodoList = useSelector(state => state.todo)
 
     return (
         <div className="container">   

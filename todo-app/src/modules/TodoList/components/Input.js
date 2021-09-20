@@ -16,7 +16,7 @@ export const Input = () => {
         dispatch(saveTodo({
             item: input,
             done: false,
-            date: Date.now() 
+            date: Date.now()
         }))
 
         setInput('')
